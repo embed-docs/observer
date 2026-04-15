@@ -1,4 +1,4 @@
-# Observer — Manual do Usuário
+# Observer v1.0.9 — Manual do Usuário
 
 Este guia é para o usuário final e explica como configurar e usar o Observer no dia a dia.
 
@@ -16,7 +16,7 @@ Ao abrir o aplicativo pela primeira vez, você passará por algumas telas de con
 
 ### 2.1. Tela “SOFTWARE HOUSE”
 
-Nesta tela, você informa o **CNPJ da Software House** responsável pelo seu sistema.
+Nesta tela, você informa o **CNPJ da Responsável pela Integração** responsável pelo seu sistema.
 
 - Se você **não tiver** o CNPJ, basta clicar em **SALVAR** para usar o padrão Embed.
 - Se informar um CNPJ, o Observer valida automaticamente.
@@ -79,7 +79,6 @@ Após o setup, o Observer exibe a tela de status com informações do processame
 Mensagens comuns:
 - **“Aguardando arquivo para processamento”**
 - **“Arquivo X sendo processado”**
-- **“Arquivo X ignorado (tpEmis != 1)”**
 
 O app continua rodando mesmo quando você fecha a janela, ficando disponível na bandeja do sistema.
 
@@ -102,7 +101,7 @@ Você pode acessar **Menu → Configurações** a qualquer momento.
 
 Mostra os dados cadastrados:
 
-- **Software House**: CNPJ (não editável após salvar)
+- **Responsável pela Integração**: CNPJ (não editável após salvar)
 - **Estabelecimento**: CNPJ, e-mail, telefone, loja e PDV ID
 
 > Observação: CNPJ e PDV ID ficam bloqueados depois de cadastrados.
@@ -128,7 +127,6 @@ Configurações de sistema e aparência:
 ## 6. Como o envio de XML funciona
 
 - O Observer lê automaticamente os arquivos `.xml` da pasta monitorada.
-- Apenas XMLs com `tpEmis = 1` são enviados.
 - Após o envio:
   - Se **Deletar arquivos após envio** estiver ativado, o XML é removido.
   - Caso contrário, o XML é movido para a pasta `processados` dentro do diretório monitorado.
@@ -137,6 +135,9 @@ Configurações de sistema e aparência:
 ---
 
 ## 7. Dúvidas rápidas
+
+**O que fazer logo após a instalação?**
+- Reinicie a aplicação, assim todas as configurações serão aplicadas corretamente.
 
 **O aplicativo fechou e parou?**
 - Não. Ele continua rodando na bandeja do sistema.
@@ -149,4 +150,4 @@ Configurações de sistema e aparência:
 
 ---
 
-Se precisar de suporte, entre em contato com sua Software House ou com a equipe responsável pelo Observer.
+Se precisar de suporte, entre em contato com sua Responsável pela Integração ou com a equipe responsável pelo Observer.
