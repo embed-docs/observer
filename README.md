@@ -1,4 +1,4 @@
-# Observer v1.0.9 — Manual do Usuário
+# Observer v1.0.12 — Manual do Usuário
 
 Este guia é para o usuário final e explica como configurar e usar o Observer no dia a dia.
 
@@ -14,7 +14,7 @@ O Observer é um aplicativo que monitora uma pasta de XMLs fiscais e envia os ar
 
 Ao abrir o aplicativo pela primeira vez, você passará por algumas telas de configuração. Elas são simples e guiadas.
 
-### 2.1. Tela “SOFTWARE HOUSE”
+### 2.1. Tela “RESPONSÁVEL PELA INTEGRAÇÃO”
 
 Nesta tela, você informa o **CNPJ da Responsável pela Integração** responsável pelo seu sistema.
 
@@ -25,7 +25,7 @@ Ações disponíveis:
 - **SALVAR**: valida o CNPJ e avança.
 - **SAIR**: fecha o aplicativo.
 
-### 2.2. Tela de confirmação da Software House
+### 2.2. Tela de confirmação do Responsável pela Integração
 
 Aparece uma mensagem de sucesso após a validação.
 - Clique em **PRÓXIMO** para continuar.
