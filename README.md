@@ -1,4 +1,4 @@
-# Observer v1.0.12 — Manual do Usuário
+# Observer v1.0.13 — Manual do Usuário
 
 Este guia é para o usuário final e explica como configurar e usar o Observer no dia a dia.
 
