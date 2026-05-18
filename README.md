@@ -1,4 +1,4 @@
-# Observer v1.0.13 — Manual do Usuário
+# Observer v1.0.14 — Manual do Usuário
 
 Este guia é para o usuário final e explica como configurar e usar o Observer no dia a dia.
 
@@ -118,7 +118,6 @@ Permite alterar a pasta monitorada e enviar histórico:
 Configurações de sistema e aparência:
 
 - **Iniciar com o sistema**: inicia o Observer automaticamente ao ligar o computador.
-- **Deletar arquivos após envio**: remove o XML após envio, mas mantém o histórico para não reenviar.
 - **Customização de cores**: escolha a cor **primária** e **secundária** da interface.
 - **Redefinir configurações**: apaga tudo e reinicia o app.
 
@@ -127,9 +126,6 @@ Configurações de sistema e aparência:
 ## 6. Como o envio de XML funciona
 
 - O Observer lê automaticamente os arquivos `.xml` da pasta monitorada.
-- Após o envio:
-  - Se **Deletar arquivos após envio** estiver ativado, o XML é removido.
-  - Caso contrário, o XML é movido para a pasta `processados` dentro do diretório monitorado.
 - O app mantém um histórico interno para não reenviar o mesmo XML.
 
 ---
